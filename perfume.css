@@ -1,0 +1,96 @@
+
+
+body {
+    background-color:  hsl(30, 38%, 92%);
+    font-family: "Fraunces", serif;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.container {
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    width: 645px;
+    margin: 100px auto;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  
+}
+.per {
+    letter-spacing: 6px;
+}
+img{
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+.image > img {
+    display: none;
+}
+.content {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 60px;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+.money h1 {
+    font-size: 42px;
+    color: hsl(158, 36%, 37%);
+    
+}
+.money del {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.btn{
+    margin: 10px 20px;
+    width: 85%;
+    padding: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 7px ;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color:  hsl(0, 0%, 100%);
+}
+.btn:hover {
+    background-color: hsl(159, 67%, 18%);
+    color: white;
+}
+@media screen and (max-width: 375px) {
+    .container{
+        margin-top: 30px;
+        width: 100%;
+    }
+    main{
+        display: block;
+    
+    
+    }
+     img {
+        display: none;
+        
+         
+    }
+    .image > img{
+        display: block;
+        width: 100%;
+        height: 300px;
+    }
+    .content {
+       padding: 10px;
+    
+    }
+    .money del {
+        padding-right: 100px;
+    }
+}
